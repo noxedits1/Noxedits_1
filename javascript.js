@@ -16,10 +16,10 @@ navigator.mediaDevices.getUserMedia({audio:true})
         .then(res=>res.json())
         .then(data=>{
           if(data.ok){
-            alert("sent")
+           
           }
           else{
-            alert("error")
+           
           }
           
         })
